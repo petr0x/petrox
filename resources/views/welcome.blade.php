@@ -15,6 +15,15 @@
         <!-- Styles -->
     </head>
     <body>
-    <input type="text" placeholder="Adj meg egy nevet"><button name="+"><br>
+    <div class="field">
+    <input type="text" placeholder="Adj meg egy nevet"><button>+<br>
+    </div>
     </body>
+    <script>
+        $("button").click(function(){
+            $( ".field" ).append( "<input type="text" placeholder="Adj meg egy nevet"><button>+<br>>" );
+            });
+
+
+    </script>
 </html>
