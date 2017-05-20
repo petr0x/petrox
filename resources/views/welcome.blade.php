@@ -14,16 +14,26 @@
 
         <!-- Styles -->
     </head>
+    <form>
     <body>
     <div class="field">
         <input type="text" placeholder="Adj meg egy nevet"><button>+</button>
         <br>
     </div>
+    <input type="submit" value="Sorsol">
+    </form>
     </body>
     <script>
+
         $("button").click(function(){
             $( ".field" ).append( '<br><input type="text" placeholder="Adj meg egy nevet"><br>');
-            });
+        });
+
+        $("submit").click(function(){
+            var str = $( "form" ).serialize();
+            $( ".field" ).append(str);
+
+        });
 
 
     </script>
