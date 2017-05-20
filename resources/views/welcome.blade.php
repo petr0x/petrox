@@ -15,6 +15,6 @@
         <!-- Styles -->
     </head>
     <body>
-    <input type="text" placeholder="Adj meg egy nevet"><br>
+    <input type="text" placeholder="Adj meg egy nevet"><button name="+"><br>
     </body>
 </html>
