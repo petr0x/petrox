@@ -21,7 +21,7 @@
     </body>
     <script>
         $("button").click(function(){
-            $( ".field" ).append( "<input type="text" placeholder="Adj meg egy nevet"><button>+<br>>" );
+            $( ".field" ).append( '<input type="text" placeholder="Adj meg egy nevet"><button>+<br>>');
             });
 
 
