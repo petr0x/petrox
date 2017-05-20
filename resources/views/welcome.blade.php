@@ -22,6 +22,8 @@
     </div>
     <input type="submit" value="Sorsol">
     </form>
+    <div class="result">
+    </div>
     </body>
     <script>
 
@@ -31,7 +33,7 @@
 
         $("submit").click(function(){
             var str = $( "form" ).serialize();
-            $( ".field" ).append(str);
+            $( ".result" ).text(str);
 
         });
 
