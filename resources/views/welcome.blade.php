@@ -17,23 +17,22 @@
     <form>
     <body>
     <div class="field">
-        <input type="text" placeholder="Adj meg egy nevet"><button>+</button>
+        <input type="text" class="name" placeholder="Add meg a Játékos nevét"><button class="add">Következő</button>
         <br>
     </div>
-    <input type="submit" value="Sorsol">
+    <button class="sors"></button>
     </form>
     <div class="result">
     </div>
     </body>
     <script>
-
-        $("button").click(function(){
-            $( ".field" ).append( '<br><input type="text" placeholder="Adj meg egy nevet"><br>');
+        var names = [];
+        $(".add").click(function(){
+           names.append($(".name").text());
         });
 
-        $("submit").click(function(){
-            var str = $( "form" ).serialize();
-            $( ".result" ).text(str);
+        $(".sors").click(function(){
+            $( ".result" ).text(namss);
 
         });
 
