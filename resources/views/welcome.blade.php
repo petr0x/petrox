@@ -86,10 +86,6 @@
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
         qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <div class="w3-row">
-        <div class="w3-col m6 w3-center w3-padding-large">
-            <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-            <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-        </div>
 
         <!-- Hide this text on small devices -->
         <div class="w3-col m6 w3-hide-small w3-padding-large">
@@ -141,46 +137,34 @@
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">MY WORK</h3>
+    <h3 class="w3-center">Programozás szakkör</h3>
     <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-
-    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-    <div class="w3-row-padding w3-center">
-        <div class="w3-col m3">
-            <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-        </div>
-
-        <div class="w3-col m3">
-            <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-        </div>
-
-        <div class="w3-col m3">
-            <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-        </div>
-
-        <div class="w3-col m3">
-            <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-        </div>
-    </div>
-
-    <div class="w3-row-padding w3-center w3-section">
-        <div class="w3-col m3">
-            <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-        </div>
-
-        <div class="w3-col m3">
-            <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-        </div>
-
-        <div class="w3-col m3">
-            <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-        </div>
-
-        <div class="w3-col m3">
-            <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-        </div>
-        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-    </div>
+    <p>Mi is ez?
+        Programozást szeretnék tanítani általános iskolásoknak. Hiszem, hogy a mai, egyre
+        gyorsabban fejlődő világunkban szinte elengedhetetlen tudás a programozás. Programozni
+        nem azt jelenti, hogy tudunk egy programozási nyelvet, hanem hogy tudunk úgy
+        gondolkodni, hogy megoldjunk egy problémát, vagy éppen automatizáljunk egy folyamatot.
+        Amellett hogy biztos, jól fizető munkahelyet jelenthet ez a tudás, fejleszti az ember
+        gondolkodásmódját, problémamegoldó készségét.
+        Miként szeretném ezt tanítani?
+        A programozás alapja az elektronika. Ezért mindenképp úgy tanítanám a diákokat a
+        programozásra, hogy közben lássák, mit csinálnak. Ehhez hívnám segítségül az úgynevezett
+        Arduino környezetet. Ez egy úgy nevezett „Open Source” – „Nyílt forráskódú” platform.
+        Ennek segítségével, a legegyszerűbbtől akár ipari nehézségű áramköröket is össze lehet rakni,
+        és azokat programozni. A szakkör folyamán a legegyszerűbb kapcsolásoktól a
+        bonyolultabbakig haladva tanulnának a diákok, és közben elsajátítanák a programozás
+        alapjait. Emellett szeretnék átadni plusz tudást is azzal kapcsolatban, hogyan is tudják
+        megvédeni magukat a hackerekkel szemben. Ezen a ponton szemléltetném nekik, hogy
+        milyen könnyen fel lehet törni bárkinek a számítógépét, ha figyelmetlen vagy nem elég
+        óvatos. Ezután megmutatnám, hogyan is tudnak ez ellen védekezni.
+        Kiknek tartanám a szakkört?
+        A célközönségem a 6- 8. osztályba járó diákok lennének, mert ekkora már bőven
+        rendelkeznek olyan háttértudással, ami a programozás megértéséhez szükséges.
+        Hány főnek tartanám a szakkört?
+        Ez az informatika terem befogadóképességétől és a jelentkezők számától is függ, de
+        maximum 15-17 fő lenne csoportonként az ideális.
+        Milyen gyakran lenne szakkör?
+        Féléves turnusokban heti egy alkalommal, két óra hosszat (120 perc).
 </div>
 
 <!-- Modal for full size images on click-->
